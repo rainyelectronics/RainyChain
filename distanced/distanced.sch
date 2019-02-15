@@ -1,4 +1,6 @@
 EESchema Schematic File Version 2
+LIBS:distanced-cache
+LIBS:vl53l0x
 LIBS:power
 LIBS:device
 LIBS:switches
@@ -31,8 +33,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:distanced-cache
-LIBS:vl53l0x
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
