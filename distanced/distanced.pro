@@ -1,4 +1,4 @@
-update=15/02/2019 19:23:01
+update=Tue 05 Mar 2019 03:47:57 PM GMT
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,39 +27,4 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../../Distanced
-[eeschema/libraries]
-LibName1=distanced-cache
-LibName2=vl53l0x
-LibName3=power
-LibName4=device
-LibName5=switches
-LibName6=relays
-LibName7=motors
-LibName8=transistors
-LibName9=conn
-LibName10=linear
-LibName11=regul
-LibName12=74xx
-LibName13=cmos4000
-LibName14=adc-dac
-LibName15=memory
-LibName16=xilinx
-LibName17=microcontrollers
-LibName18=dsp
-LibName19=microchip
-LibName20=analog_switches
-LibName21=motorola
-LibName22=texas
-LibName23=intel
-LibName24=audio
-LibName25=interface
-LibName26=digital-audio
-LibName27=philips
-LibName28=display
-LibName29=cypress
-LibName30=siliconi
-LibName31=opto
-LibName32=atmel
-LibName33=contrib
-LibName34=valves
+LibDir=
