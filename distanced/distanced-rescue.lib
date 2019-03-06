@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# distanced-rescue_+2V8-distanced-rescue
+# +2V8-distanced-rescue
 #
-DEF distanced-rescue_+2V8-distanced-rescue #PWR 0 0 Y Y 1 F P
+DEF +2V8-distanced-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "distanced-rescue_+2V8-distanced-rescue" 0 140 50 H V C CNN
+F1 "+2V8-distanced-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -16,11 +16,11 @@ X +2V8 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# distanced-rescue_+3.3V-distanced-rescue
+# +3.3V-distanced-rescue
 #
-DEF distanced-rescue_+3.3V-distanced-rescue #PWR 0 0 Y Y 1 F P
+DEF +3.3V-distanced-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "distanced-rescue_+3.3V-distanced-rescue" 0 140 50 H V C CNN
+F1 "+3.3V-distanced-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -31,11 +31,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# distanced-rescue_ATMEGA328P-AU-distanced-rescue
+# ATMEGA328P-AU-distanced-rescue
 #
-DEF distanced-rescue_ATMEGA328P-AU-distanced-rescue U 0 40 Y Y 1 F N
+DEF ATMEGA328P-AU-distanced-rescue U 0 40 Y Y 1 F N
 F0 "U" -750 1250 50 H V L BNN
-F1 "distanced-rescue_ATMEGA328P-AU-distanced-rescue" 400 -1400 50 H V L BNN
+F1 "ATMEGA328P-AU-distanced-rescue" 400 -1400 50 H V L BNN
 F2 "Housings_QFP:TQFP-32_7x7mm_Pitch0.8mm" 0 0 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -78,11 +78,11 @@ X (PCINT21/OC0B/T1)PD5 9 1000 -1000 150 L 40 40 1 1 B
 ENDDRAW
 ENDDEF
 #
-# distanced-rescue_BSS138-distanced-rescue
+# BSS138-distanced-rescue
 #
-DEF distanced-rescue_BSS138-distanced-rescue Q 0 0 Y N 1 F N
+DEF BSS138-distanced-rescue Q 0 0 Y N 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "distanced-rescue_BSS138-distanced-rescue" 200 0 50 H V L CNN
+F1 "BSS138-distanced-rescue" 200 0 50 H V L CNN
 F2 "TO_SOT_Packages_SMD:SOT-23" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 $FPLIST
@@ -112,11 +112,11 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# distanced-rescue_C-distanced-rescue
+# C-distanced-rescue
 #
-DEF distanced-rescue_C-distanced-rescue C 0 10 N Y 1 F N
+DEF C-distanced-rescue C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "distanced-rescue_C-distanced-rescue" 25 -100 50 H V L CNN
+F1 "C-distanced-rescue" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -130,11 +130,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# distanced-rescue_CP1-distanced-rescue
+# CP1-distanced-rescue
 #
-DEF distanced-rescue_CP1-distanced-rescue C 0 10 N N 1 F N
+DEF CP1-distanced-rescue C 0 10 N N 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "distanced-rescue_CP1-distanced-rescue" 25 -100 50 H V L CNN
+F1 "CP1-distanced-rescue" 25 -100 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -150,11 +150,11 @@ X ~ 2 0 -150 130 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# distanced-rescue_Conn_01x06-distanced-rescue
+# Conn_01x06-distanced-rescue
 #
-DEF distanced-rescue_Conn_01x06-distanced-rescue J 0 40 Y N 1 F N
+DEF Conn_01x06-distanced-rescue J 0 40 Y N 1 F N
 F0 "J" 0 300 50 H V C CNN
-F1 "distanced-rescue_Conn_01x06-distanced-rescue" 0 -400 50 H V C CNN
+F1 "Conn_01x06-distanced-rescue" 0 -400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -182,11 +182,11 @@ X Pin_6 6 -200 -300 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# distanced-rescue_Conn_02x02_Odd_Even-distanced-rescue
+# Conn_02x02_Odd_Even-distanced-rescue
 #
-DEF distanced-rescue_Conn_02x02_Odd_Even-distanced-rescue J 0 40 Y N 1 F N
+DEF Conn_02x02_Odd_Even-distanced-rescue J 0 40 Y N 1 F N
 F0 "J" 50 100 50 H V C CNN
-F1 "distanced-rescue_Conn_02x02_Odd_Even-distanced-rescue" 50 -200 50 H V C CNN
+F1 "Conn_02x02_Odd_Even-distanced-rescue" 50 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -210,11 +210,11 @@ X Pin_4 4 300 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# distanced-rescue_Conn_02x03_Odd_Even-distanced-rescue
+# Conn_02x03_Odd_Even-distanced-rescue
 #
-DEF distanced-rescue_Conn_02x03_Odd_Even-distanced-rescue J 0 40 Y N 1 F N
+DEF Conn_02x03_Odd_Even-distanced-rescue J 0 40 Y N 1 F N
 F0 "J" 50 200 50 H V C CNN
-F1 "distanced-rescue_Conn_02x03_Odd_Even-distanced-rescue" 50 -200 50 H V C CNN
+F1 "Conn_02x03_Odd_Even-distanced-rescue" 50 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -242,11 +242,11 @@ X Pin_6 6 300 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# distanced-rescue_Crystal_GND24-distanced-rescue
+# Crystal_GND24-distanced-rescue
 #
-DEF distanced-rescue_Crystal_GND24-distanced-rescue Y 0 40 Y N 1 F N
+DEF Crystal_GND24-distanced-rescue Y 0 40 Y N 1 F N
 F0 "Y" 125 200 50 H V L CNN
-F1 "distanced-rescue_Crystal_GND24-distanced-rescue" 125 125 50 H V L CNN
+F1 "Crystal_GND24-distanced-rescue" 125 125 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -269,11 +269,11 @@ X 4 4 0 -200 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# distanced-rescue_D_Small-distanced-rescue
+# D_Small-distanced-rescue
 #
-DEF distanced-rescue_D_Small-distanced-rescue D 0 10 N N 1 F N
+DEF D_Small-distanced-rescue D 0 10 N N 1 F N
 F0 "D" -50 80 50 H V L CNN
-F1 "distanced-rescue_D_Small-distanced-rescue" -150 -80 50 H V L CNN
+F1 "D_Small-distanced-rescue" -150 -80 50 H V L CNN
 F2 "" 0 0 50 V I C CNN
 F3 "" 0 0 50 V I C CNN
 $FPLIST
@@ -292,11 +292,11 @@ X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# distanced-rescue_GNDREF-distanced-rescue
+# GNDREF-distanced-rescue
 #
-DEF distanced-rescue_GNDREF-distanced-rescue #PWR 0 0 Y Y 1 F P
+DEF GNDREF-distanced-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "distanced-rescue_GNDREF-distanced-rescue" 0 -150 50 H V C CNN
+F1 "GNDREF-distanced-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -308,11 +308,11 @@ X GNDREF 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# distanced-rescue_LED-distanced-rescue
+# LED-distanced-rescue
 #
-DEF distanced-rescue_LED-distanced-rescue D 0 40 Y N 1 F N
+DEF LED-distanced-rescue D 0 40 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "distanced-rescue_LED-distanced-rescue" 0 -100 50 H V C CNN
+F1 "LED-distanced-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -329,11 +329,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# distanced-rescue_MIC5205-2.8-distanced-rescue
+# MIC5205-2.8-distanced-rescue
 #
-DEF distanced-rescue_MIC5205-2.8-distanced-rescue U 0 10 Y Y 1 F N
+DEF MIC5205-2.8-distanced-rescue U 0 10 Y Y 1 F N
 F0 "U" -150 225 50 H V C CNN
-F1 "distanced-rescue_MIC5205-2.8-distanced-rescue" 0 225 50 H V L CNN
+F1 "MIC5205-2.8-distanced-rescue" 0 225 50 H V L CNN
 F2 "TO_SOT_Packages_SMD:SOT-23-5" 0 325 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -349,11 +349,11 @@ X OUT 5 300 100 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# distanced-rescue_MIC5205-3.3-distanced-rescue
+# MIC5205-3.3-distanced-rescue
 #
-DEF distanced-rescue_MIC5205-3.3-distanced-rescue U 0 10 Y Y 1 F N
+DEF MIC5205-3.3-distanced-rescue U 0 10 Y Y 1 F N
 F0 "U" -150 225 50 H V C CNN
-F1 "distanced-rescue_MIC5205-3.3-distanced-rescue" 0 225 50 H V L CNN
+F1 "MIC5205-3.3-distanced-rescue" 0 225 50 H V L CNN
 F2 "TO_SOT_Packages_SMD:SOT-23-5" 0 325 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -369,11 +369,11 @@ X OUT 5 300 100 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# distanced-rescue_R-distanced-rescue
+# R-distanced-rescue
 #
-DEF distanced-rescue_R-distanced-rescue R 0 0 N Y 1 F N
+DEF R-distanced-rescue R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "distanced-rescue_R-distanced-rescue" 0 0 50 V V C CNN
+F1 "R-distanced-rescue" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -387,11 +387,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# distanced-rescue_SP3485CN-distanced-rescue
+# SP3485CN-distanced-rescue
 #
-DEF distanced-rescue_SP3485CN-distanced-rescue U 0 40 Y Y 1 F N
+DEF SP3485CN-distanced-rescue U 0 40 Y Y 1 F N
 F0 "U" -300 350 50 H V L CNN
-F1 "distanced-rescue_SP3485CN-distanced-rescue" 100 350 50 H V L CNN
+F1 "SP3485CN-distanced-rescue" 100 350 50 H V L CNN
 F2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" 1050 -350 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -410,11 +410,11 @@ X VCC 8 0 400 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# distanced-rescue_SW_Push-distanced-rescue
+# SW_Push-distanced-rescue
 #
-DEF distanced-rescue_SW_Push-distanced-rescue SW 0 40 N N 1 F N
+DEF SW_Push-distanced-rescue SW 0 40 N N 1 F N
 F0 "SW" 50 100 50 H V L CNN
-F1 "distanced-rescue_SW_Push-distanced-rescue" 0 -60 50 H V C CNN
+F1 "SW_Push-distanced-rescue" 0 -60 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW
@@ -427,11 +427,11 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# distanced-rescue_VL53L0X-distanced-rescue
+# VL53L0X-distanced-rescue
 #
-DEF distanced-rescue_VL53L0X-distanced-rescue U 0 40 Y Y 1 F N
+DEF VL53L0X-distanced-rescue U 0 40 Y Y 1 F N
 F0 "U" 50 850 60 H V C CNN
-F1 "distanced-rescue_VL53L0X-distanced-rescue" 50 -50 60 H V C CNN
+F1 "VL53L0X-distanced-rescue" 50 -50 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW

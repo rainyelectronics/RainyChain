@@ -1230,9 +1230,9 @@ Wire Wire Line
 Wire Wire Line
 	8700 2850 8350 2850
 Connection ~ 8350 2850
-Text GLabel 8250 2850 0    60   Input ~ 0
-D3
 Text GLabel 8050 2750 0    60   Input ~ 0
+D3
+Text GLabel 8250 2850 0    60   Input ~ 0
 D4
 $Comp
 L distanced-rescue:+2V8 #PWR033

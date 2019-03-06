@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L distanced-rescue:ATMEGA328P-AU uC1
+L distanced-rescue:ATMEGA328P-AU-distanced-rescue uC1
 U 1 1 5BE6DF72
 P 1950 2000
 F 0 "uC1" H 1200 3250 50  0000 L BNN
@@ -26,7 +26,7 @@ F 3 "" H 1950 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L distanced-rescue:MIC5205-3.3 Vreg1
+L distanced-rescue:MIC5205-3.3-distanced-rescue Vreg1
 U 1 1 5BE6E280
 P 7350 1000
 F 0 "Vreg1" H 7200 1225 50  0000 C CNN
@@ -37,7 +37,7 @@ F 3 "" H 7350 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L distanced-rescue:CP1 C1
+L distanced-rescue:CP1-distanced-rescue C1
 U 1 1 5BE6E975
 P 6600 1050
 F 0 "C1" H 6625 1150 50  0000 L CNN
@@ -48,7 +48,7 @@ F 3 "" H 6600 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L distanced-rescue:GNDREF #PWR01
+L distanced-rescue:GNDREF-distanced-rescue #PWR01
 U 1 1 5BE6E9B9
 P 6600 1300
 F 0 "#PWR01" H 6600 1050 50  0001 C CNN
@@ -59,7 +59,7 @@ F 3 "" H 6600 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L distanced-rescue:GNDREF #PWR02
+L distanced-rescue:GNDREF-distanced-rescue #PWR02
 U 1 1 5BE6E9EC
 P 7350 1450
 F 0 "#PWR02" H 7350 1200 50  0001 C CNN
@@ -70,7 +70,7 @@ F 3 "" H 7350 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L distanced-rescue:LED D1
+L distanced-rescue:LED-distanced-rescue D1
 U 1 1 5BE6EA44
 P 7950 1050
 F 0 "D1" H 7950 1150 50  0000 C CNN
@@ -81,7 +81,7 @@ F 3 "" H 7950 1050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L distanced-rescue:R R1
+L distanced-rescue:R-distanced-rescue R1
 U 1 1 5BE6EAC8
 P 7950 1500
 F 0 "R1" V 8030 1500 50  0000 C CNN
@@ -92,7 +92,7 @@ F 3 "" H 7950 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L distanced-rescue:CP1 C3
+L distanced-rescue:CP1-distanced-rescue C3
 U 1 1 5BE6EBAA
 P 8350 1050
 F 0 "C3" H 8375 1150 50  0000 L CNN
@@ -103,7 +103,7 @@ F 3 "" H 8350 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L distanced-rescue:C C4
+L distanced-rescue:C-distanced-rescue C4
 U 1 1 5BE6EC1A
 P 8650 1050
 F 0 "C4" H 8675 1150 50  0000 L CNN
@@ -150,7 +150,7 @@ Wire Wire Line
 	1050 900  950  900 
 Connection ~ 950  900 
 $Comp
-L distanced-rescue:GNDREF #PWR03
+L distanced-rescue:GNDREF-distanced-rescue #PWR03
 U 1 1 5BE6F35A
 P 750 1800
 F 0 "#PWR03" H 750 1550 50  0001 C CNN
@@ -161,7 +161,7 @@ F 3 "" H 750 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L distanced-rescue:C C2
+L distanced-rescue:C-distanced-rescue C2
 U 1 1 5BE6F392
 P 750 1650
 F 0 "C2" H 775 1750 50  0000 L CNN
@@ -174,7 +174,7 @@ $EndComp
 Wire Wire Line
 	1050 1500 750  1500
 $Comp
-L distanced-rescue:GNDREF #PWR04
+L distanced-rescue:GNDREF-distanced-rescue #PWR04
 U 1 1 5BE6F790
 P 900 3300
 F 0 "#PWR04" H 900 3050 50  0001 C CNN
@@ -195,7 +195,7 @@ Wire Wire Line
 	1050 3000 900  3000
 Connection ~ 900  3100
 $Comp
-L distanced-rescue:GNDREF #PWR05
+L distanced-rescue:GNDREF-distanced-rescue #PWR05
 U 1 1 5BE6F90C
 P 6150 1650
 F 0 "#PWR05" H 6150 1400 50  0001 C CNN
@@ -206,7 +206,7 @@ F 3 "" H 6150 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L distanced-rescue:C C5
+L distanced-rescue:C-distanced-rescue C5
 U 1 1 5BE6F947
 P 6150 1450
 F 0 "C5" H 6175 1550 50  0000 L CNN
@@ -227,7 +227,7 @@ Wire Wire Line
 Wire Wire Line
 	2950 2350 4050 2350
 $Comp
-L distanced-rescue:SW_Push SWRST1
+L distanced-rescue:SW_Push-distanced-rescue SWRST1
 U 1 1 5BE70977
 P 4400 2350
 F 0 "SWRST1" H 4450 2450 50  0000 L CNN
@@ -240,7 +240,7 @@ $EndComp
 Text GLabel 4050 2800 3    60   Input ~ 0
 DRT
 $Comp
-L distanced-rescue:C C6
+L distanced-rescue:C-distanced-rescue C6
 U 1 1 5BE70A51
 P 4050 2500
 F 0 "C6" H 4075 2600 50  0000 L CNN
@@ -253,7 +253,7 @@ $EndComp
 Wire Wire Line
 	4050 2800 4050 2650
 $Comp
-L distanced-rescue:GNDREF #PWR06
+L distanced-rescue:GNDREF-distanced-rescue #PWR06
 U 1 1 5BE70BF2
 P 4750 2400
 F 0 "#PWR06" H 4750 2150 50  0001 C CNN
@@ -268,7 +268,7 @@ Wire Wire Line
 Wire Wire Line
 	4750 2350 4750 2400
 $Comp
-L distanced-rescue:R R5
+L distanced-rescue:R-distanced-rescue R5
 U 1 1 5BE70E42
 P 4050 2150
 F 0 "R5" V 4130 2150 50  0000 C CNN
@@ -284,7 +284,7 @@ Wire Wire Line
 Wire Wire Line
 	2950 1600 4300 1600
 $Comp
-L distanced-rescue:C C7
+L distanced-rescue:C-distanced-rescue C7
 U 1 1 5BE7154C
 P 4850 1400
 F 0 "C7" H 4875 1500 50  0000 L CNN
@@ -295,7 +295,7 @@ F 3 "" H 4850 1400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L distanced-rescue:C C8
+L distanced-rescue:C-distanced-rescue C8
 U 1 1 5BE71604
 P 4850 1700
 F 0 "C8" H 4875 1800 50  0000 L CNN
@@ -306,7 +306,7 @@ F 3 "" H 4850 1700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L distanced-rescue:GNDREF #PWR07
+L distanced-rescue:GNDREF-distanced-rescue #PWR07
 U 1 1 5BE716F2
 P 5400 1500
 F 0 "#PWR07" H 5400 1250 50  0001 C CNN
@@ -326,7 +326,7 @@ Wire Wire Line
 	5100 1700 5100 1400
 Connection ~ 5100 1400
 $Comp
-L distanced-rescue:SP3485CN RS485
+L distanced-rescue:SP3485CN-distanced-rescue RS485
 U 1 1 5BE71888
 P 4100 6400
 F 0 "RS485" H 3800 6750 50  0000 L CNN
@@ -337,7 +337,7 @@ F 3 "" H 4100 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L distanced-rescue:GNDREF #PWR08
+L distanced-rescue:GNDREF-distanced-rescue #PWR08
 U 1 1 5BE71AB0
 P 4100 6900
 F 0 "#PWR08" H 4100 6650 50  0001 C CNN
@@ -388,7 +388,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 2300 4050 2350
 $Comp
-L distanced-rescue:R R2
+L distanced-rescue:R-distanced-rescue R2
 U 1 1 5BE7325D
 P 3350 1950
 F 0 "R2" V 3430 1950 50  0000 C CNN
@@ -399,7 +399,7 @@ F 3 "" H 3350 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L distanced-rescue:R R3
+L distanced-rescue:R-distanced-rescue R3
 U 1 1 5BE732C5
 P 3500 1950
 F 0 "R3" V 3580 1950 50  0000 C CNN
@@ -468,7 +468,7 @@ Wire Wire Line
 Wire Wire Line
 	3050 900  2950 900 
 $Comp
-L distanced-rescue:LED D2
+L distanced-rescue:LED-distanced-rescue D2
 U 1 1 5BE7656A
 P 3650 1050
 F 0 "D2" H 3650 1150 50  0000 C CNN
@@ -482,7 +482,7 @@ Wire Wire Line
 	3650 1200 3650 1400
 Connection ~ 3650 1400
 $Comp
-L distanced-rescue:R R4
+L distanced-rescue:R-distanced-rescue R4
 U 1 1 5BE766FF
 P 3950 800
 F 0 "R4" V 4030 800 50  0000 C CNN
@@ -497,7 +497,7 @@ Wire Wire Line
 Wire Wire Line
 	3650 800  3650 900 
 $Comp
-L distanced-rescue:GNDREF #PWR09
+L distanced-rescue:GNDREF-distanced-rescue #PWR09
 U 1 1 5BE7688C
 P 4200 900
 F 0 "#PWR09" H 4200 650 50  0001 C CNN
@@ -571,7 +571,7 @@ SDA
 Text GLabel 6500 3800 2    60   Input ~ 0
 SCL
 $Comp
-L distanced-rescue:BSS138 Q1
+L distanced-rescue:BSS138-distanced-rescue Q1
 U 1 1 5BE87149
 P 6100 2900
 F 0 "Q1" H 6300 2975 50  0000 L CNN
@@ -582,7 +582,7 @@ F 3 "" H 6100 2900 50  0001 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L distanced-rescue:MIC5205-2.8 U1
+L distanced-rescue:MIC5205-2.8-distanced-rescue U1
 U 1 1 5BE8883D
 P 9950 1000
 F 0 "U1" H 9800 1225 50  0000 C CNN
@@ -593,7 +593,7 @@ F 3 "" H 9950 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L distanced-rescue:+2V8 #PWR010
+L distanced-rescue:+2V8-distanced-rescue #PWR010
 U 1 1 5BE88E6D
 P 11000 850
 F 0 "#PWR010" H 11000 700 50  0001 C CNN
@@ -604,7 +604,7 @@ F 3 "" H 11000 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L distanced-rescue:+3.3V #PWR011
+L distanced-rescue:+3.3V-distanced-rescue #PWR011
 U 1 1 5BE8A0BA
 P 6150 1250
 F 0 "#PWR011" H 6150 1100 50  0001 C CNN
@@ -615,7 +615,7 @@ F 3 "" H 6150 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L distanced-rescue:+3.3V #PWR012
+L distanced-rescue:+3.3V-distanced-rescue #PWR012
 U 1 1 5BE8A13E
 P 8900 850
 F 0 "#PWR012" H 8900 700 50  0001 C CNN
@@ -626,7 +626,7 @@ F 3 "" H 8900 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L distanced-rescue:+3.3V #PWR013
+L distanced-rescue:+3.3V-distanced-rescue #PWR013
 U 1 1 5BE8A228
 P 4050 2000
 F 0 "#PWR013" H 4050 1850 50  0001 C CNN
@@ -637,7 +637,7 @@ F 3 "" H 4050 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L distanced-rescue:+3.3V #PWR014
+L distanced-rescue:+3.3V-distanced-rescue #PWR014
 U 1 1 5BE8A2CF
 P 3500 1800
 F 0 "#PWR014" H 3500 1650 50  0001 C CNN
@@ -648,7 +648,7 @@ F 3 "" H 3500 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L distanced-rescue:+3.3V #PWR015
+L distanced-rescue:+3.3V-distanced-rescue #PWR015
 U 1 1 5BE8A334
 P 3350 1800
 F 0 "#PWR015" H 3350 1650 50  0001 C CNN
@@ -659,7 +659,7 @@ F 3 "" H 3350 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L distanced-rescue:+3.3V #PWR016
+L distanced-rescue:+3.3V-distanced-rescue #PWR016
 U 1 1 5BE8A3B8
 P 950 750
 F 0 "#PWR016" H 950 600 50  0001 C CNN
@@ -670,7 +670,7 @@ F 3 "" H 950 750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L distanced-rescue:+3.3V #PWR017
+L distanced-rescue:+3.3V-distanced-rescue #PWR017
 U 1 1 5BE8B2EA
 P 4100 5950
 F 0 "#PWR017" H 4100 5800 50  0001 C CNN
@@ -681,7 +681,7 @@ F 3 "" H 4100 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L distanced-rescue:+3.3V #PWR018
+L distanced-rescue:+3.3V-distanced-rescue #PWR018
 U 1 1 5BE8B34F
 P 9100 850
 F 0 "#PWR018" H 9100 700 50  0001 C CNN
@@ -701,7 +701,7 @@ Wire Wire Line
 	9500 1000 9650 1000
 Connection ~ 9500 900 
 $Comp
-L distanced-rescue:GNDREF #PWR019
+L distanced-rescue:GNDREF-distanced-rescue #PWR019
 U 1 1 5BE8B4FB
 P 9950 1400
 F 0 "#PWR019" H 9950 1150 50  0001 C CNN
@@ -714,7 +714,7 @@ $EndComp
 Wire Wire Line
 	9950 1300 9950 1400
 $Comp
-L distanced-rescue:C C11
+L distanced-rescue:C-distanced-rescue C11
 U 1 1 5BE8B607
 P 9300 1100
 F 0 "C11" H 9325 1200 50  0000 L CNN
@@ -725,7 +725,7 @@ F 3 "" H 9300 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L distanced-rescue:C C12
+L distanced-rescue:C-distanced-rescue C12
 U 1 1 5BE8B6D6
 P 10700 1050
 F 0 "C12" H 10725 1150 50  0000 L CNN
@@ -741,7 +741,7 @@ Wire Wire Line
 	11000 900  11000 850 
 Connection ~ 10700 900 
 $Comp
-L distanced-rescue:GNDREF #PWR020
+L distanced-rescue:GNDREF-distanced-rescue #PWR020
 U 1 1 5BE8BB07
 P 9300 1300
 F 0 "#PWR020" H 9300 1050 50  0001 C CNN
@@ -752,7 +752,7 @@ F 3 "" H 9300 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L distanced-rescue:GNDREF #PWR021
+L distanced-rescue:GNDREF-distanced-rescue #PWR021
 U 1 1 5BE8BB72
 P 10700 1250
 F 0 "#PWR021" H 10700 1000 50  0001 C CNN
@@ -763,7 +763,7 @@ F 3 "" H 10700 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L distanced-rescue:BSS138 Q2
+L distanced-rescue:BSS138-distanced-rescue Q2
 U 1 1 5BE8BD99
 P 6100 3700
 F 0 "Q2" H 6300 3775 50  0000 L CNN
@@ -774,7 +774,7 @@ F 3 "" H 6100 3700 50  0001 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L distanced-rescue:+3.3V #PWR022
+L distanced-rescue:+3.3V-distanced-rescue #PWR022
 U 1 1 5BE8BFDF
 P 6400 3400
 F 0 "#PWR022" H 6400 3250 50  0001 C CNN
@@ -785,7 +785,7 @@ F 3 "" H 6400 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L distanced-rescue:R R11
+L distanced-rescue:R-distanced-rescue R11
 U 1 1 5BE8C04A
 P 6400 3550
 F 0 "R11" V 6480 3550 50  0000 C CNN
@@ -801,7 +801,7 @@ Wire Wire Line
 	6400 3700 6400 3800
 Connection ~ 6400 3800
 $Comp
-L distanced-rescue:R R10
+L distanced-rescue:R-distanced-rescue R10
 U 1 1 5BE8C322
 P 6400 2750
 F 0 "R10" V 6480 2750 50  0000 C CNN
@@ -812,7 +812,7 @@ F 3 "" H 6400 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L distanced-rescue:+3.3V #PWR023
+L distanced-rescue:+3.3V-distanced-rescue #PWR023
 U 1 1 5BE8C3BE
 P 6400 2600
 F 0 "#PWR023" H 6400 2450 50  0001 C CNN
@@ -828,7 +828,7 @@ Wire Wire Line
 	6400 2900 6400 3000
 Connection ~ 6400 3000
 $Comp
-L distanced-rescue:+2V8 #PWR024
+L distanced-rescue:+2V8-distanced-rescue #PWR024
 U 1 1 5BE8D23F
 P 6100 2600
 F 0 "#PWR024" H 6100 2450 50  0001 C CNN
@@ -839,7 +839,7 @@ F 3 "" H 6100 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L distanced-rescue:+2V8 #PWR025
+L distanced-rescue:+2V8-distanced-rescue #PWR025
 U 1 1 5BE8D2AD
 P 6100 3400
 F 0 "#PWR025" H 6100 3250 50  0001 C CNN
@@ -850,7 +850,7 @@ F 3 "" H 6100 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L distanced-rescue:R R8
+L distanced-rescue:R-distanced-rescue R8
 U 1 1 5BE8D31B
 P 5700 2850
 F 0 "R8" V 5780 2850 50  0000 C CNN
@@ -872,7 +872,7 @@ Text GLabel 5550 3000 0    60   Input ~ 0
 Wire Wire Line
 	6100 3400 6100 3500
 $Comp
-L distanced-rescue:R R9
+L distanced-rescue:R-distanced-rescue R9
 U 1 1 5BE8D7AF
 P 5700 3650
 F 0 "R9" V 5780 3650 50  0000 C CNN
@@ -890,7 +890,7 @@ Connection ~ 5700 3800
 Text GLabel 5550 3800 0    60   Input ~ 0
 2.8_SCL
 $Comp
-L distanced-rescue:Conn_02x02_Odd_Even E1
+L distanced-rescue:Conn_02x02_Odd_Even-distanced-rescue E1
 U 1 1 5BE8FC1A
 P 1200 6150
 F 0 "E1" H 1250 6250 50  0000 C CNN
@@ -901,7 +901,7 @@ F 3 "" H 1200 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L distanced-rescue:Conn_02x02_Odd_Even W1
+L distanced-rescue:Conn_02x02_Odd_Even-distanced-rescue W1
 U 1 1 5BE8FD0C
 P 1200 6550
 F 0 "W1" H 1250 6650 50  0000 C CNN
@@ -924,7 +924,7 @@ RAW
 Text GLabel 950  6550 0    60   Input ~ 0
 RAW
 $Comp
-L distanced-rescue:GNDREF #PWR026
+L distanced-rescue:GNDREF-distanced-rescue #PWR026
 U 1 1 5BE93B8E
 P 850 6650
 F 0 "#PWR026" H 850 6400 50  0001 C CNN
@@ -935,7 +935,7 @@ F 3 "" H 850 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L distanced-rescue:GNDREF #PWR027
+L distanced-rescue:GNDREF-distanced-rescue #PWR027
 U 1 1 5BE93C8D
 P 850 6250
 F 0 "#PWR027" H 850 6000 50  0001 C CNN
@@ -962,7 +962,7 @@ Wire Wire Line
 Wire Wire Line
 	1000 6250 850  6250
 $Comp
-L distanced-rescue:Conn_02x03_Odd_Even J2
+L distanced-rescue:Conn_02x03_Odd_Even-distanced-rescue J2
 U 1 1 5BE9960A
 P 1250 4800
 F 0 "J2" H 1300 5000 50  0000 C CNN
@@ -975,7 +975,7 @@ $EndComp
 Text GLabel 950  4900 0    60   Input ~ 0
 DRT
 $Comp
-L distanced-rescue:GNDREF #PWR028
+L distanced-rescue:GNDREF-distanced-rescue #PWR028
 U 1 1 5BE9ACB8
 P 1700 4900
 F 0 "#PWR028" H 1700 4650 50  0001 C CNN
@@ -1006,7 +1006,7 @@ Wire Wire Line
 Wire Wire Line
 	1550 4700 1650 4700
 $Comp
-L distanced-rescue:Conn_01x06 J1
+L distanced-rescue:Conn_01x06-distanced-rescue J1
 U 1 1 5BEA0F66
 P 2900 4450
 F 0 "J1" H 2900 4750 50  0000 C CNN
@@ -1017,7 +1017,7 @@ F 3 "" H 2900 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L distanced-rescue:GNDREF #PWR029
+L distanced-rescue:GNDREF-distanced-rescue #PWR029
 U 1 1 5BEA103A
 P 2600 4800
 F 0 "#PWR029" H 2600 4550 50  0001 C CNN
@@ -1051,7 +1051,7 @@ Wire Wire Line
 Wire Wire Line
 	2600 4450 2700 4450
 $Comp
-L distanced-rescue:Crystal_GND24 Y1
+L distanced-rescue:Crystal_GND24-distanced-rescue Y1
 U 1 1 5C00A8D0
 P 4400 1550
 F 0 "Y1" H 4525 1750 50  0000 L CNN
@@ -1062,7 +1062,7 @@ F 3 "" H 4400 1550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L distanced-rescue:GNDREF #PWR030
+L distanced-rescue:GNDREF-distanced-rescue #PWR030
 U 1 1 5C00AC8A
 P 4700 1800
 F 0 "#PWR030" H 4700 1550 50  0001 C CNN
@@ -1073,7 +1073,7 @@ F 3 "" H 4700 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L distanced-rescue:GNDREF #PWR031
+L distanced-rescue:GNDREF-distanced-rescue #PWR031
 U 1 1 5C00AD10
 P 4100 1650
 F 0 "#PWR031" H 4100 1400 50  0001 C CNN
@@ -1108,7 +1108,7 @@ Wire Wire Line
 Text Notes 5300 4150 0    60   ~ 0
 level shifters for the I2C lines
 $Comp
-L distanced-rescue:GNDREF #PWR032
+L distanced-rescue:GNDREF-distanced-rescue #PWR032
 U 1 1 5C250299
 P 7950 1800
 F 0 "#PWR032" H 7950 1550 50  0001 C CNN
@@ -1126,7 +1126,7 @@ Connection ~ 6900 900
 Wire Wire Line
 	8900 900  8900 850 
 $Comp
-L distanced-rescue:VL53L0X LSR2
+L distanced-rescue:VL53L0X-distanced-rescue LSR2
 U 1 1 5C251D0C
 P 9250 3350
 F 0 "LSR2" H 9300 4200 60  0000 C CNN
@@ -1163,7 +1163,7 @@ Wire Wire Line
 	9850 2850 10150 2850
 Connection ~ 10150 2950
 $Comp
-L distanced-rescue:C C13
+L distanced-rescue:C-distanced-rescue C13
 U 1 1 5C251D27
 P 10550 2650
 F 0 "C13" H 10575 2750 50  0000 L CNN
@@ -1174,7 +1174,7 @@ F 3 "" H 10550 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L distanced-rescue:C C14
+L distanced-rescue:C-distanced-rescue C14
 U 1 1 5C251D2D
 P 10850 2650
 F 0 "C14" H 10875 2750 50  0000 L CNN
@@ -1201,7 +1201,7 @@ Wire Wire Line
 	10700 2950 10700 2800
 Connection ~ 10700 2800
 $Comp
-L distanced-rescue:R R13
+L distanced-rescue:R-distanced-rescue R13
 U 1 1 5C251D3D
 P 8550 2400
 F 0 "R13" V 8630 2400 50  0000 C CNN
@@ -1215,7 +1215,7 @@ Wire Wire Line
 	8250 2750 8550 2750
 Connection ~ 8550 2750
 $Comp
-L distanced-rescue:R R12
+L distanced-rescue:R-distanced-rescue R12
 U 1 1 5C251D45
 P 8350 2400
 F 0 "R12" V 8430 2400 50  0000 C CNN
@@ -1235,7 +1235,7 @@ D3
 Text GLabel 8250 2850 0    60   Input ~ 0
 D4
 $Comp
-L distanced-rescue:+2V8 #PWR033
+L distanced-rescue:+2V8-distanced-rescue #PWR033
 U 1 1 5C251D50
 P 8450 2250
 F 0 "#PWR033" H 8450 2100 50  0001 C CNN
@@ -1246,7 +1246,7 @@ F 3 "" H 8450 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L distanced-rescue:+2V8 #PWR034
+L distanced-rescue:+2V8-distanced-rescue #PWR034
 U 1 1 5C251D56
 P 10700 2400
 F 0 "#PWR034" H 10700 2250 50  0001 C CNN
@@ -1257,7 +1257,7 @@ F 3 "" H 10700 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L distanced-rescue:D_Small D4
+L distanced-rescue:D_Small-distanced-rescue D4
 U 1 1 5C251D5C
 P 8150 2750
 F 0 "D4" H 8100 2830 50  0000 L CNN
@@ -1295,7 +1295,7 @@ Wire Wire Line
 Wire Wire Line
 	6150 1600 6150 1650
 $Comp
-L distanced-rescue:GNDREF #PWR035
+L distanced-rescue:GNDREF-distanced-rescue #PWR035
 U 1 1 5C25A083
 P 10150 3300
 F 0 "#PWR035" H 10150 3050 50  0001 C CNN

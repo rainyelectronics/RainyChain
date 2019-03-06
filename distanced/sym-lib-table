@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name distanced-rescue)(type Legacy)(uri ${KIPRJMOD}/distanced-rescue.lib)(options "")(descr ""))
+)
