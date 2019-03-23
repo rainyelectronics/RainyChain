@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/pepe/RossRobotics/Random Repos/RainyChain/distanced/distanced.sch</source>
+    <date>Fri 22 Mar 2019 07:50:09 GMT</date>
+    <tool>Eeschema 5.0.2-bee76a0~70~ubuntu16.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>distanced.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="uC1">
+      <value>ATMEGA328P-AU</value>
+      <footprint>Housings_QFP:TQFP-32_7x7mm_Pitch0.8mm</footprint>
+      <libsource lib="distanced-rescue" part="ATMEGA328P-AU-distanced-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE6DF72</tstamp>
+    </comp>
+    <comp ref="Vreg1">
+      <value>MIC5205-3.3</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-5</footprint>
+      <libsource lib="distanced-rescue" part="MIC5205-3.3-distanced-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE6E280</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitors_Tantalum_SMD:CP_Tantalum_Case-A_EIA-3216-18_Reflow</footprint>
+      <libsource lib="distanced-rescue" part="CP1-distanced-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE6E975</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LEDs:LED_0402</footprint>
+      <libsource lib="distanced-rescue" part="LED-distanced-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE6EA44</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <libsource lib="distanced-rescue" part="R-distanced-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE6EAC8</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>Capacitors_Tantalum_SMD:CP_Tantalum_Case-A_EIA-3216-18_Reflow</footprint>
+      <libsource lib="distanced-rescue" part="CP1-distanced-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE6EBAA</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="distanced-rescue" part="C-distanced-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE6EC1A</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="distanced-rescue" part="C-distanced-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE6F392</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="distanced-rescue" part="C-distanced-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE6F947</tstamp>
+    </comp>
+    <comp ref="SWRST1">
+      <value>Reset</value>
+      <footprint>Buttons_Switches_SMD:SW_SPST_B3S-1000</footprint>
+      <libsource lib="distanced-rescue" part="SW_Push-distanced-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE70977</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="distanced-rescue" part="C-distanced-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE70A51</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <libsource lib="distanced-rescue" part="R-distanced-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE70E42</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>22nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="distanced-rescue" part="C-distanced-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE7154C</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>22nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="distanced-rescue" part="C-distanced-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE71604</tstamp>
+    </comp>
+    <comp ref="RS485">
+      <value>SP3485CN</value>
+      <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
+      <libsource lib="distanced-rescue" part="SP3485CN-distanced-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE71888</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <libsource lib="distanced-rescue" part="R-distanced-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE7325D</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <libsource lib="distanced-rescue" part="R-distanced-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE732C5</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED_GREEN</value>
+      <footprint>LEDs:LED_0402</footprint>
+      <libsource lib="distanced-rescue" part="LED-distanced-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE7656A</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>330</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <libsource lib="distanced-rescue" part="R-distanced-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE766FF</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>BSS138</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <libsource lib="distanced-rescue" part="BSS138-distanced-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE87149</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>MIC5205-2.8</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-5</footprint>
+      <libsource lib="distanced-rescue" part="MIC5205-2.8-distanced-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE8883D</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="distanced-rescue" part="C-distanced-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE8B607</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="distanced-rescue" part="C-distanced-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE8B6D6</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>BSS138</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <libsource lib="distanced-rescue" part="BSS138-distanced-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE8BD99</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <libsource lib="distanced-rescue" part="R-distanced-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE8C04A</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <libsource lib="distanced-rescue" part="R-distanced-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE8C322</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <libsource lib="distanced-rescue" part="R-distanced-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE8D31B</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <libsource lib="distanced-rescue" part="R-distanced-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE8D7AF</tstamp>
+    </comp>
+    <comp ref="E1">
+      <value>Econn</value>
+      <footprint>Pin_Headers:Pin_Header_Angled_2x02_Pitch2.54mm</footprint>
+      <libsource lib="distanced-rescue" part="Conn_02x02_Odd_Even-distanced-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE8FC1A</tstamp>
+    </comp>
+    <comp ref="W1">
+      <value>Wconn</value>
+      <footprint>Pin_Headers:Pin_Header_Angled_2x02_Pitch2.54mm</footprint>
+      <libsource lib="distanced-rescue" part="Conn_02x02_Odd_Even-distanced-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE8FD0C</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>ICSP</value>
+      <footprint>Pin_Headers:Pin_Header_Angled_2x03_Pitch2.54mm</footprint>
+      <libsource lib="distanced-rescue" part="Conn_02x03_Odd_Even-distanced-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE9960A</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>FTDI prog</value>
+      <footprint>Pin_Headers:Pin_Header_Angled_1x06_Pitch2.54mm</footprint>
+      <libsource lib="distanced-rescue" part="Conn_01x06-distanced-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BEA0F66</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>Crystal_GND24</value>
+      <footprint>Crystals:Crystal_SMD_3225-4pin_3.2x2.5mm_HandSoldering</footprint>
+      <libsource lib="distanced-rescue" part="Crystal_GND24-distanced-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C00A8D0</tstamp>
+    </comp>
+    <comp ref="LSR2">
+      <value>VL53L0X</value>
+      <footprint>VL53L0X:VL53L0X</footprint>
+      <libsource lib="distanced-rescue" part="VL53L0X-distanced-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C251D0C</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="distanced-rescue" part="C-distanced-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C251D27</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="distanced-rescue" part="C-distanced-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C251D2D</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <libsource lib="distanced-rescue" part="R-distanced-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C251D3D</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <libsource lib="distanced-rescue" part="R-distanced-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C251D45</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>D_Small</value>
+      <footprint>Diodes_SMD:D_0603</footprint>
+      <libsource lib="distanced-rescue" part="D_Small-distanced-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C251D5C</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="distanced-rescue" part="ATMEGA328P-AU-distanced-rescue">
+      <footprints>
+        <fp>TQFP*7x7mm*Pitch0.8mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATMEGA328P-AU-distanced-rescue</field>
+        <field name="Footprint">Housings_QFP:TQFP-32_7x7mm_Pitch0.8mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="(PCINT19/OC2B/INT1)PD3" type="BiDi"/>
+        <pin num="2" name="(PCINT20/XCK/T0)PD4" type="BiDi"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="VCC" type="power_in"/>
+        <pin num="7" name="(PCINT6/XTAL1/TOSC1)PB6" type="BiDi"/>
+        <pin num="8" name="(PCINT7/XTAL2/TOSC2)PB7" type="BiDi"/>
+        <pin num="9" name="(PCINT21/OC0B/T1)PD5" type="BiDi"/>
+        <pin num="10" name="(PCINT22/OC0A/AIN0)PD6" type="BiDi"/>
+        <pin num="11" name="(PCINT23/AIN1)PD7" type="BiDi"/>
+        <pin num="12" name="(PCINT0/CLKO/ICP1)PB0" type="BiDi"/>
+        <pin num="13" name="(PCINT1/OC1A)PB1" type="BiDi"/>
+        <pin num="14" name="(PCINT2/OC1B/~SS~)PB2" type="BiDi"/>
+        <pin num="15" name="(PCINT3/OC2A/MOSI)PB3" type="BiDi"/>
+        <pin num="16" name="(PCINT4/MISO)PB4" type="BiDi"/>
+        <pin num="17" name="(PCINT5/SCK)PB5" type="BiDi"/>
+        <pin num="18" name="AVCC" type="power_in"/>
+        <pin num="19" name="ADC6" type="input"/>
+        <pin num="20" name="AREF" type="BiDi"/>
+        <pin num="21" name="GND" type="power_in"/>
+        <pin num="22" name="ADC7" type="input"/>
+        <pin num="23" name="(PCINT8/ADC0)PC0" type="BiDi"/>
+        <pin num="24" name="(PCINT9/ADC1)PC1" type="BiDi"/>
+        <pin num="25" name="(PCINT10/ADC2)PC2" type="BiDi"/>
+        <pin num="26" name="(PCINT11/ADC3)PC3" type="BiDi"/>
+        <pin num="27" name="(PCINT12/SDA/ADC4)PC4" type="BiDi"/>
+        <pin num="28" name="(PCINT13/SCL/ADC5)PC5" type="BiDi"/>
+        <pin num="29" name="(PCINT14/~RESET~)PC6" type="BiDi"/>
+        <pin num="30" name="(PCINT16/RXD)PD0" type="BiDi"/>
+        <pin num="31" name="(PCINT17/TXD)PD1" type="BiDi"/>
+        <pin num="32" name="(PCINT18/INT0)PD2" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="distanced-rescue" part="BSS138-distanced-rescue">
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS138-distanced-rescue</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="distanced-rescue" part="C-distanced-rescue">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-distanced-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="distanced-rescue" part="CP1-distanced-rescue">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1-distanced-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="distanced-rescue" part="Conn_01x06-distanced-rescue">
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06-distanced-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="distanced-rescue" part="Conn_02x02_Odd_Even-distanced-rescue">
+      <footprints>
+        <fp>Connector*:*2x??x*mm*</fp>
+        <fp>Connector*:*2x???Pitch*</fp>
+        <fp>Pin_Header_Straight_2X*</fp>
+        <fp>Pin_Header_Angled_2X*</fp>
+        <fp>Socket_Strip_Straight_2X*</fp>
+        <fp>Socket_Strip_Angled_2X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x02_Odd_Even-distanced-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="distanced-rescue" part="Conn_02x03_Odd_Even-distanced-rescue">
+      <footprints>
+        <fp>Connector*:*2x??x*mm*</fp>
+        <fp>Connector*:*2x???Pitch*</fp>
+        <fp>Pin_Header_Straight_2X*</fp>
+        <fp>Pin_Header_Angled_2X*</fp>
+        <fp>Socket_Strip_Straight_2X*</fp>
+        <fp>Socket_Strip_Angled_2X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x03_Odd_Even-distanced-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="distanced-rescue" part="Crystal_GND24-distanced-rescue">
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND24-distanced-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="distanced-rescue" part="D_Small-distanced-rescue">
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Small-distanced-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="distanced-rescue" part="LED-distanced-rescue">
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-distanced-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="distanced-rescue" part="MIC5205-2.8-distanced-rescue">
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MIC5205-2.8-distanced-rescue</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="BP" type="input"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="distanced-rescue" part="MIC5205-3.3-distanced-rescue">
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MIC5205-3.3-distanced-rescue</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="BP" type="input"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="distanced-rescue" part="R-distanced-rescue">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-distanced-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="distanced-rescue" part="SP3485CN-distanced-rescue">
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*Pitch1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SP3485CN-distanced-rescue</field>
+        <field name="Footprint">Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RO" type="output"/>
+        <pin num="2" name="~RE~" type="input"/>
+        <pin num="3" name="DE" type="input"/>
+        <pin num="4" name="DI" type="input"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="A" type="BiDi"/>
+        <pin num="7" name="B" type="BiDi"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="distanced-rescue" part="SW_Push-distanced-rescue">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push-distanced-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="distanced-rescue" part="VL53L0X-distanced-rescue">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">VL53L0X-distanced-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AVDDVCSEL" type="input"/>
+        <pin num="2" name="AVSSVCSEL" type="input"/>
+        <pin num="3" name="GND" type="input"/>
+        <pin num="4" name="GND2" type="input"/>
+        <pin num="5" name="XSHUT" type="input"/>
+        <pin num="6" name="GND3" type="input"/>
+        <pin num="7" name="GPIO1" type="input"/>
+        <pin num="8" name="DNC" type="input"/>
+        <pin num="9" name="SDA" type="input"/>
+        <pin num="10" name="SCL" type="input"/>
+        <pin num="11" name="AVDD" type="input"/>
+        <pin num="12" name="GND4" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="distanced-rescue">
+      <uri>/home/pepe/RossRobotics/Random Repos/RainyChain/distanced/distanced-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GNDREF">
+      <node ref="C14" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="LSR2" pin="12"/>
+      <node ref="C5" pin="2"/>
+      <node ref="E1" pin="3"/>
+      <node ref="LSR2" pin="6"/>
+      <node ref="LSR2" pin="4"/>
+      <node ref="LSR2" pin="3"/>
+      <node ref="LSR2" pin="2"/>
+      <node ref="uC1" pin="21"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="uC1" pin="3"/>
+      <node ref="C1" pin="2"/>
+      <node ref="Vreg1" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="RS485" pin="5"/>
+      <node ref="C8" pin="2"/>
+      <node ref="SWRST1" pin="2"/>
+      <node ref="uC1" pin="5"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="J2" pin="6"/>
+      <node ref="Y1" pin="4"/>
+      <node ref="Y1" pin="2"/>
+      <node ref="J1" pin="6"/>
+      <node ref="J1" pin="5"/>
+      <node ref="W1" pin="3"/>
+    </net>
+    <net code="2" name="DRT">
+      <node ref="C6" pin="2"/>
+      <node ref="J2" pin="5"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="3" name="D13">
+      <node ref="J2" pin="3"/>
+      <node ref="D2" pin="2"/>
+      <node ref="uC1" pin="17"/>
+    </net>
+    <net code="4" name="D12">
+      <node ref="uC1" pin="16"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="5" name="RAW">
+      <node ref="J2" pin="2"/>
+      <node ref="J1" pin="4"/>
+      <node ref="E1" pin="1"/>
+      <node ref="Vreg1" pin="1"/>
+      <node ref="Vreg1" pin="3"/>
+      <node ref="C1" pin="1"/>
+      <node ref="W1" pin="1"/>
+    </net>
+    <net code="6" name="D11">
+      <node ref="J2" pin="4"/>
+      <node ref="uC1" pin="15"/>
+    </net>
+    <net code="7" name="A">
+      <node ref="E1" pin="4"/>
+      <node ref="RS485" pin="6"/>
+      <node ref="W1" pin="4"/>
+    </net>
+    <net code="8" name="B">
+      <node ref="E1" pin="2"/>
+      <node ref="RS485" pin="7"/>
+      <node ref="W1" pin="2"/>
+    </net>
+    <net code="9" name="RXI">
+      <node ref="RS485" pin="1"/>
+      <node ref="J1" pin="3"/>
+      <node ref="uC1" pin="30"/>
+    </net>
+    <net code="10" name="TXO">
+      <node ref="RS485" pin="4"/>
+      <node ref="J1" pin="2"/>
+      <node ref="uC1" pin="31"/>
+    </net>
+    <net code="11" name="+3V3">
+      <node ref="R5" pin="1"/>
+      <node ref="R11" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="uC1" pin="18"/>
+      <node ref="D1" pin="2"/>
+      <node ref="Vreg1" pin="5"/>
+      <node ref="uC1" pin="4"/>
+      <node ref="uC1" pin="6"/>
+      <node ref="R10" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="RS485" pin="8"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="12" name="+2V8">
+      <node ref="C13" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="R12" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="LSR2" pin="11"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R13" pin="1"/>
+      <node ref="LSR2" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="13" name="2.8_SCL">
+      <node ref="R9" pin="2"/>
+      <node ref="LSR2" pin="10"/>
+      <node ref="Q2" pin="2"/>
+    </net>
+    <net code="14" name="2.8_SDA">
+      <node ref="Q1" pin="2"/>
+      <node ref="LSR2" pin="9"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="15" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2"/>
+      <node ref="LSR2" pin="5"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="16" name="D3">
+      <node ref="D4" pin="1"/>
+      <node ref="uC1" pin="1"/>
+    </net>
+    <net code="17" name="D4">
+      <node ref="LSR2" pin="7"/>
+      <node ref="uC1" pin="2"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="18" name="Net-(LSR2-Pad8)">
+      <node ref="LSR2" pin="8"/>
+    </net>
+    <net code="19" name="A7">
+      <node ref="uC1" pin="22"/>
+    </net>
+    <net code="20" name="A6">
+      <node ref="uC1" pin="19"/>
+    </net>
+    <net code="21" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2"/>
+      <node ref="uC1" pin="20"/>
+    </net>
+    <net code="22" name="Net-(C8-Pad1)">
+      <node ref="Y1" pin="3"/>
+      <node ref="uC1" pin="8"/>
+      <node ref="C8" pin="1"/>
+    </net>
+    <net code="23" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1"/>
+      <node ref="uC1" pin="7"/>
+      <node ref="Y1" pin="1"/>
+    </net>
+    <net code="24" name="Net-(C6-Pad1)">
+      <node ref="SWRST1" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="uC1" pin="29"/>
+    </net>
+    <net code="25" name="D5">
+      <node ref="uC1" pin="9"/>
+    </net>
+    <net code="26" name="D7">
+      <node ref="uC1" pin="11"/>
+    </net>
+    <net code="27" name="D6">
+      <node ref="uC1" pin="10"/>
+    </net>
+    <net code="28" name="Net-(D1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="29" name="Net-(Vreg1-Pad4)">
+      <node ref="Vreg1" pin="4"/>
+    </net>
+    <net code="30" name="D2">
+      <node ref="uC1" pin="32"/>
+      <node ref="RS485" pin="2"/>
+      <node ref="RS485" pin="3"/>
+    </net>
+    <net code="31" name="A5">
+      <node ref="Q2" pin="3"/>
+      <node ref="R11" pin="2"/>
+      <node ref="uC1" pin="28"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="32" name="A4">
+      <node ref="R10" pin="2"/>
+      <node ref="uC1" pin="27"/>
+      <node ref="R2" pin="2"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="33" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="34" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="35" name="A1">
+      <node ref="uC1" pin="24"/>
+    </net>
+    <net code="36" name="A3">
+      <node ref="uC1" pin="26"/>
+    </net>
+    <net code="37" name="A2">
+      <node ref="uC1" pin="25"/>
+    </net>
+    <net code="38" name="A0">
+      <node ref="uC1" pin="23"/>
+    </net>
+    <net code="39" name="D10">
+      <node ref="uC1" pin="14"/>
+    </net>
+    <net code="40" name="D9">
+      <node ref="uC1" pin="13"/>
+    </net>
+    <net code="41" name="D8">
+      <node ref="uC1" pin="12"/>
+    </net>
+  </nets>
+</export>
